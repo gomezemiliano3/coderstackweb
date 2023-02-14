@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9a240d451c249399a6bcf75968514165",
+    "packages": [
+        {
+            "name": "daniel-zahariev/php-aws-ses",
+            "version": "0.9.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daniel-zahariev/php-aws-ses.git",
+                "reference": "4584427a358d8bf4aa8c2ce308afadc5f9601ab8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daniel-zahariev/php-aws-ses/zipball/4584427a358d8bf4aa8c2ce308afadc5f9601ab8",
+                "reference": "4584427a358d8bf4aa8c2ce308afadc5f9601ab8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.7",
+                "phpspec/prophecy": "~1.0",
+                "phpunit/php-code-coverage": "^6.0",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Zahariev",
+                    "role": "developer"
+                }
+            ],
+            "description": "Send emails via Amazon Simple Email Service (SES) with REST-like interface",
+            "homepage": "https://github.com/daniel-zahariev/php-aws-ses",
+            "keywords": [
+                "amazon",
+                "api",
+                "aws",
+                "email",
+                "rest",
+                "ses"
+            ],
+            "support": {
+                "issues": "https://github.com/daniel-zahariev/php-aws-ses/issues",
+                "source": "https://github.com/daniel-zahariev/php-aws-ses/tree/0.9.5"
+            },
+            "time": "2021-03-25T08:23:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

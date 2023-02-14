@@ -1,0 +1,23 @@
+RewriteEngine On
+DirectoryIndex index.php
+
+RewriteRule ^(.*)/$ $1.php
+RewriteRule ^(.*)/(.*)/$ $1/$2.php
+
+RewriteRule ^inicio$ index.php
+RewriteRule ^befrontend$ ./product/authentic-identity/index.php
+RewriteRule ^befullstack$ ./product/face-recognition/index.php
+RewriteRule ^bejsdeveloper$ ./product/identity/index.php
+RewriteRule ^nosotros$ ./company/index.html
+RewriteRule ^contacto$ ./contact/index.php
+RewriteRule ^politica-de-privacidad$ ./privacy-policy/index.html
+RewriteRule ^testimonios$ ./newsroom/index.html
+RewriteRule ^testimonios$ ./newsroom/index.html
+RewriteRule ^julia-lepera-fullstack$ ./news/julia-lepera-ruiz/index.html
+RewriteRule ^carlos-bustelo-fontend$ ./news/carlos-bustelo-gonzalez/index.html
+RewriteRule ^matias-ibargoyen-fullstack$ ./news/matias-ibargoyen-cedres/index.html
+RewriteRule ^nicolas-echeguren-fullstack$ ./news/nicolas-echeguren/index.html
+
+# para probar que los cambios de htaccess se aplican
+RewriteRule test\.html http://www.youtube.com [R]
+
